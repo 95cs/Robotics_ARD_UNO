@@ -1,16 +1,16 @@
-3. NTC Temperature Monitor (Lab 3)
-Acest proiect demonstrează capacitatea de a lucra cu senzori analogici și de a aplica formule matematice complexe în software.
+NTC Temperature Monitor (Lab 3)
+This project demonstrates the capability to work with analog sensors and apply engineering mathematics to software.
 
-Descriere
+Description
 
-Un sistem de monitorizare a temperaturii care utilizează un termistor NTC. Dispozitivul calculează temperatura reală în grade Celsius și oferă feedback vizual progresiv prin LED-uri în funcție de pragurile de căldură stabilite.
+A temperature monitoring system using an NTC thermistor. The device calculates the real-time temperature in Celsius and provides progressive visual feedback via LEDs based on specific thermal thresholds.
 
-Caracteristici Tehnice
+Technical Features
 
-Modelare Matematică: Implementarea ecuației Steinhart-Hart pentru a converti rezistența variabilă a termistorului în unități de temperatură precise.
+Mathematical Modeling: Implementation of the Steinhart-Hart equation to convert the thermistor's variable resistance into accurate temperature units.
 
-Calcul de Rezistență: Utilizarea legii lui Ohm pentru a deduce rezistența NTC dintr-o rețea de divizor de tensiune citită analogic.
+Resistance Calculation: Uses a formula based on a 10-bit analog reading and a fixed resistor value to deduce the NTC resistance.
 
-Logică de Control Progresivă: Sistemul activează secvențial LED-urile pe măsură ce temperatura depășește un prag de bază (baseline), oferind o reprezentare vizuală a creșterii termice.
+Progressive Control Logic: The system sequentially activates LEDs (pins 2, 3, and 4) as the temperature rises above a defined baseline (25.0°C).
 
-Debug Serial: Monitorizarea în timp real a valorilor brute ale senzorului și a temperaturii convertite prin interfața Serial.
+Serial Debugging: Real-time monitoring of both raw sensor values and converted Celsius degrees through the Serial interface.
