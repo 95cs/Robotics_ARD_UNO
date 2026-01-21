@@ -11,4 +11,3 @@ Each folder represents a standalone project and includes:
 - wiring diagrams or notes (when relevant)
 - short explanation of the idea and behavior
 
-Example:
